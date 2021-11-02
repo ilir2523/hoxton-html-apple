@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    background-color: #333333ee;
+    height: 52px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+header .menu ul {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    height: 52px;
+
+}
+
+header .menu ul li a {
+    color: #d7d7d7;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+}
+
+header .menu ul li a:hover {
+    color: #ffffff;
+}
+
+header .menu ul li a img {
+    color: #d7d7d7;
+}
+header .menu ul li a img:hover {
+    color: #ffffff;
+}
+
+/* header .menu .aple{
+    display: grid;
+    grid-area: apple;
+} */
+
+/* @media screen and (max-width: 800px) {
+    header .menu ul {
+        display: none;
+    }
+
+    header .menu .aple {
+        display: grid;
+        grid-template: 
+        apple 1fr /
+        1fr;
+    }
+
+} */
+
+main {
+    display: grid;
+    grid-auto-flow:row;
+    place-items: center;
+    gap: 1rem;
+}
+
+.top-notification {
+    background-color: #e34140;
+    width: 100vw;
+    height: 44px;
+    text-align: center;
+    padding-top: 11px;
+    color: #ffffff;
+}
+
+.top-notification a {
+    color: #ffffff;
+}
+
+.top-notification a:hover {
+    text-decoration: underline;
+}
+
+.sec-1 {
+    display: grid;
+    grid-auto-rows: 52px 35px 25px;
+    width: 100vw;
+    height: 640px;
+    place-items: center;
+    gap: 10px;
+    background-color: #fbfbfd;
+    padding: 50px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_mediumtall.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+}
+
+.btn-list {
+    display: grid;
+    grid-auto-flow:column;
+    place-items: center;
+    gap: 2rem;
+}
+
+.sec-1 h2 {
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #1d1d1f;
+    font-weight: 550;
+    letter-spacing: inherit;
+    
+}
+
+.sec-1 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 28px;
+    color: #1d1d1f;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-1 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-1 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-2 {
+    display: grid;
+    grid-auto-rows: 52px 35px 25px;
+    width: 100vw;
+    height: 615px;
+    place-items: center;
+    gap: 10px;
+    background-color: #35283c;
+    padding: 50px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit ;
+    background-position: center;
+    
+}
+
+.sec-2 h2 {
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #f5f5f7;
+    font-weight: 550;
+    letter-spacing: inherit;
+    
+}
+
+.sec-2 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 28px;
+    color: #fbbfe8;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-2 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-2 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-3 {
+    display: grid;
+    grid-auto-rows: 52px 35px 25px;
+    width: 100vw;
+    height: 615px;
+    place-items: center;
+    gap: 10px;
+    background-color: #fbfbfd;
+    padding: 50px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/heroes/macbook-pro/hero_macbookpro__eatonjfwvuc2_mediumtall.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit ;
+    background-position: center;
+    
+}
+
+.sec-3 h2 {
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #1d1d1f;
+    font-weight: 550;
+    letter-spacing: inherit;
+    
+}
+
+.sec-3 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 28px;
+    color: #1d1d1f;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-3 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-3 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-4 {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+}
+
+.sec-4 .sec-4-1 {
+    display: grid;
+    grid-auto-rows: 40px 25px;
+    width: 50vw;
+    height: 600px;
+    place-items: center;
+    gap: 10px;
+    background-color: #fbfbfd;
+    padding: 50px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    
+}
+
+.sec-4-1 h2 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #1d1d1f;
+    font-weight: 550;
+    letter-spacing: inherit;
+    
+}
+
+.sec-4-1 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-4-1 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-4 .sec-4-2 {
+    display: grid;
+    grid-auto-rows: 52px 35px 25px;
+    width: 50vw;
+    height: 600px;
+    place-items: center;
+    gap: 10px;
+    background-color: #fbfbfd;
+    padding: 450px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/promos/airpods/tile_airpods__fuv6vgn42y2q_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    
+}
+
+.sec-4-2 h2 {
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #1d1d1f;
+    font-weight: 550;
+    letter-spacing: inherit;
+    
+}
+
+.sec-4-2 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    color: #1d1d1f;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-4-2 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-4-2 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-5 {
+    display: grid;
+    grid-auto-flow:column;
+    place-items: center;
+    gap: 1rem;
+}
+
+.sec-5 .sec-5-1 {
+    display: grid;
+    grid-auto-rows: 10px 45px 25px 25px;
+    width: 50vw;
+    height: 600px;
+    place-items: center;
+    gap: 10px;
+    background-color: #fbfbfd;
+    padding: 50px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    
+}
+
+.sec-5-1 h2 {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #c45a19;
+    font-weight: 100;
+    letter-spacing: inherit;
+    
+}
+
+.sec-5-1 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    color: #1d1d1f;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-5-1 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-5-1 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-5 .sec-5-2 {
+    display: grid;
+    grid-auto-rows: 42px 25px 25px 25px;
+    width: 50vw;
+    height: 600px;
+    place-items: center;
+    gap: 10px;
+    background-color: #fbfbfd;
+    padding: 50px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/promos/arcade-bundle/tile_arcade__ewkth5cd0wia_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    
+}
+
+.sec-5-2 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    color: #1d1d1f;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-5-2 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-5-2 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-6 {
+    display: grid;
+    grid-auto-flow:column;
+    place-items: center;
+    gap: 1rem;
+}
+
+.sec-6 .sec-6-1 {
+    display: grid;
+    grid-auto-rows: 42px 25px 25px 30px;
+    width: 50vw;
+    height: 600px;
+    place-items: center;
+    gap: 10px;
+    background-color: #fbfbfd;
+    padding: 50px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+.sec-6-1 h2 {
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #1d1d1f;
+    font-weight: 550;
+    letter-spacing: inherit;
+    
+}
+
+.sec-6-1 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    color: #1d1d1f;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-6-1 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-6-1 .learn-more:hover {
+    text-decoration: underline;
+}
+
+.sec-6 .sec-6-2 {
+    display: grid;
+    grid-auto-rows: 26px 80px 28px 21px;
+    width: 50vw;
+    height: 600px;
+    place-items: center;
+    gap: 7px;
+    background-color: #fbfbfd;
+    padding: 400px 0px 0 0px ;
+
+    background-image: url("https://www.apple.com/v/home/ag/images/promos/tv-plus-swagger/tile_swagger__enxxk1785qoi_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    
+}
+
+.sec-6-2 h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    color: #e7e7e9;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-6-2 .learn-more {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #06c;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.sec-6-2 .learn-more:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f5f5f7;
+    font-family: sans-serif;
+    padding: 0 50px;
+    line-height: 2;
+    font-size: 12px;
+}
+footer p {
+    color: #6e6e73;
+    padding: 20px;
+}
+
+footer a {
+    color: #424245;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer nav {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: start center;
+    height: 445px;
+    padding-top: 20px;
+
+}
+
+.copyright ul {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+}
+
+.copyright p a {
+    color: #06c;
+}
